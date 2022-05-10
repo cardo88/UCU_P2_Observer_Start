@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="pSNIfmuHtdHvhrl2tdDU" name="Page-1">
+        <mxGraphModel dx="276" dy="116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="19" value="TemperatureSensor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="220" height="112" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Temperature Current" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;" vertex="1" parent="19">
+                    <mxGeometry y="26" width="220" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="void Subscribe(TemperatureReporter)&#10;void Unsubscribe(TemperatureReporter)&#10;void GetTemperature()" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;" vertex="1" parent="19">
+                    <mxGeometry y="52" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="TemperatureReporter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="40" width="230" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="void StartReporting(TemperatureMonitor)&#10;void StopReporting(TemperatureMonitor)&#10;void Update()" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;" vertex="1" parent="23">
+                    <mxGeometry y="26" width="230" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;fillColor=none;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="19" target="23">
+                    <mxGeometry x="-1" y="3" relative="1" as="geometry">
+                        <mxPoint x="230" y="70" as="sourcePoint"/>
+                        <mxPoint x="390" y="70" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
