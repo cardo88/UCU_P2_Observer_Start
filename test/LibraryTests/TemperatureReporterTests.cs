@@ -2,6 +2,7 @@ using System.IO;
 using NUnit.Framework;
 using Observer;
 
+
 namespace LibraryTests
 {
     /// <summary>
@@ -92,6 +93,7 @@ namespace LibraryTests
                 Assert.That(sw.ToString(), Is.EqualTo(expected));
             }
         }
+        public void GetTemperature(){}
     }
 }
 
